@@ -19,6 +19,27 @@ class MessageParser {
 
 
 
+        //temporary hard-coded keywords
+        if (lowerCaseMessage.includes("brisbane grove")) {
+            this.actionProvider.queryResponse(0)
+        }
+        if (lowerCaseMessage.includes("port of brisbane")) {
+            this.actionProvider.queryResponse(0)
+        }
+        if (lowerCaseMessage.includes("south brisbane")) {
+            this.actionProvider.queryResponse(0)
+        }
+        if (lowerCaseMessage.includes("brisbane city")) {
+            this.actionProvider.queryResponse(0)
+        }
+        if (lowerCaseMessage.includes("brisbane airport")) {
+            this.actionProvider.queryResponse(0)
+        }
+        if (lowerCaseMessage.includes("east brisbane")) {
+            this.actionProvider.queryResponse(0)
+        }
+
+
 
 
 
